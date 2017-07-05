@@ -2,15 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "materialize";
-.card-panel {
-    float: left;
-    width: 300px;
+.container {
+    padding: 5em;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
 }
 
-.container {
-    margin: 5em;
+.brand-logo {
+    margin-left: 30px;
+}
+
+.row {
+    width: 100%;
 }
 
 .nav-wrapper {
     background-color: rgb(78.5%, 63.3%, 97.2%);
+}
+
+.cards {
+    background: rgb(96.4%, 96.4%, 96.4%);
+    margin: 0;
+    padding: 30px;
+}
+
+.cards:nth-child(even) {
+    background: rgb(91.1%, 94.8%, 95.2%);
+}
+
+.show-name {
+    text-align: center;
+    font-family: 'Rationale', sans-serif;
+}
+
+.field-name {
+    font-weight: bold;
 }
